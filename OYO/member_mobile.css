@@ -1,0 +1,1104 @@
+@media screen and (max-width: 480px) 
+
+{
+
+    *{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+    header{
+        position: fixed;
+        height: 70px;
+        width: 100%;
+        background-color: black;
+        z-index: 99;
+        border-bottom: 1px solid silver;
+    }
+    header .logo{
+        position: absolute;
+        top: 20px;
+        left: 38%;
+    }
+    .logo img{
+        /* background-color: black; */
+        height: 40px;
+        width: 90px;
+        filter: contrast(2);
+    }
+    .btn{
+        position: fixed;
+        height: 50px;
+        width: 200px;
+        border: 1px solid red;
+        background-color: red;
+        border-radius: 20px;
+        top: 570px;
+        left: 82%;
+        color: white;
+        cursor: pointer;
+        z-index: 100;
+        display: none;
+    }
+    .btn .fa-comment{
+        font-size: 30px;
+        position: absolute;
+        top: 8px;
+        left: 15px;
+    }
+    .btn a{
+        position: absolute;
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+        letter-spacing: 1px;
+        font-family: cursive;
+        top: 12px;
+        left: 60px;
+    }
+    .container{
+        position: relative;
+        left: 5%;
+        top: 90px;
+        height: 540px;
+        width: 90%;
+        /* background-color: darkcyan; */
+    }
+    .container .text{
+        position: absolute;
+        height: 450px;
+        width: 100%;
+    }
+    .text .hi{
+        position: absolute;
+        font-size: 26px;
+        color: white;
+        font-weight: bold;
+    }
+    .text .club{
+        position: absolute;
+        width: 100%;
+        top: 50px;
+        font-size: 40px;
+        font-weight: bold;
+        color: white;
+    }
+    .text .save{
+        position: absolute;
+        top: 160px;
+        font-size: 20px;
+        font-weight: bold;
+        color: silver;
+    }
+    .text .join{
+        position: absolute;
+        top: 220px;
+        left: -7px;
+        height: 40px;
+        width: 450px;
+        border: 1px solid red;
+        background-color: red;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .join a{
+        position: absolute;
+        text-decoration: none;
+        font-size: 20px;
+        letter-spacing: 2px;
+        font-family: 'Times New Roman', Times, serif;
+        color: white;
+        top: 7px;
+        left: 25%;
+    }
+    .text .join1{
+        position: absolute;
+        top: 280px;
+        left: -7px;
+        height: 40px;
+        width: 450px;
+        /* border: 1px solid black; */
+        background-color: rgb(148, 148, 148);
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .join1 .fa-thumbs-up{
+        position: absolute;
+        font-size: 22px;
+        color: white;
+        top: 7px;
+        left: 10px;
+    }
+    .join1 a{
+        position: absolute;
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        top: 8px;
+        left: 42px;
+    }
+    .container .vi{
+        position: absolute;
+        top: 330px;
+        left: 17%;
+        height: 200px;
+        width: 80%;
+    }
+    .vi video{
+        position: absolute;
+        height: inherit;
+        height: 200px;
+        width: 80%;
+    }
+    .paid{
+        position: relative;
+        top: 170px;
+        left: 5%;
+        height: 500px;
+        width: 90%;
+        /* background-color: brown; */
+    }
+    .paid .bene{
+        font-size: 26px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: white;
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+    .paid .box1{
+        position: absolute;
+        height: 110px;
+        width: 100%;
+        /* background-color: cadetblue; */
+    }
+    .box1 img{
+        position: absolute;
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        top: 28px;
+        left: 20px;
+    }
+    .box1 .room{
+        position: absolute;
+        top: 20px;
+        left: 90px;
+        font-size: 19px;
+        letter-spacing: 1px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        color: white;
+    }
+    .box1 .night{
+        position: absolute;
+        font-size: 18px;
+        color: silver;
+        /* font-weight: bold; */
+        top: 80px;
+        left: 90px;
+    }
+    .paid .box2{
+        position: absolute;
+        top: 170px;
+        left: 0%;
+        height: 110px;
+        width: 100%;
+        /* background-color: rgb(22, 37, 37); */
+    }
+    .box2 img{
+        position: absolute;
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        top: 28px;
+        left: 20px;
+    }
+    .box2 .room{
+        position: absolute;
+        top: 20px;
+        left: 90px;
+        font-size: 19px;
+        letter-spacing: 1px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        color: white;
+    }
+    .box2 .night{
+        position: absolute;
+        font-size: 18px;
+        color: silver;
+        /* font-weight: bold; */
+        top: 80px;
+        left: 90px;
+    }
+    .paid .box3{
+        position: absolute;
+        top: 280px;
+        left: 0%;
+        height: 110px;
+        width: 100%;
+        /* background-color: rgb(21, 93, 95); */
+    }
+    .box3 img{
+        position: absolute;
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        top: 28px;
+        left: 20px;
+    }
+    .box3 .room{
+        position: absolute;
+        top: 20px;
+        left: 90px;
+        font-size: 19px;
+        letter-spacing: 1px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        color: white;
+    }
+    .box3 .night{
+        position: absolute;
+        font-size: 18px;
+        color: silver;
+        /* font-weight: bold; */
+        top: 80px;
+        left: 90px;
+    }
+    .plans{
+        position: relative;
+        display: flex;
+        height: 2200px;
+        width: 90%;
+        top: 100px;
+        left: 5%;
+        /* background-color: rgb(119, 119, 119); */
+    }
+    .plans .avai{
+        position: absolute;
+        font-size: 30px;
+        color: white;
+        font-weight: bold;
+        font-weight: bold;
+        word-spacing: 15px;
+        letter-spacing: 1px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .plans .blue{
+        position: absolute;
+        top: 90px;
+        height: 760px;
+        width: 100%;
+        /* background-color: rgb(30, 30, 30); */
+        background-image: linear-gradient(rgb(83, 63, 100) ,rgb(30, 30, 30), rgb(30, 30, 30), rgb(30, 30, 30)90%);
+        border-top: 3px solid blue;
+        border-radius: 5px;
+    }
+    .blue .fa-w{
+        position: absolute;
+        top: 20px;
+        left: 45%;
+        color: blue;
+        font-size: 24px;
+    } 
+    .blue .txt{
+        position: absolute;
+        top: 60px;
+        left: 40%;
+        height: 20px;
+        width: 60px;
+        background-color: blue;
+        border-radius: 4px;
+    }
+    .txt p{
+        color: black;
+        padding-left: 15px;
+        padding-top: 1px;
+    }
+    .blue .b1{
+        position: absolute;
+        height: 65px;
+        width: 94%;
+        top: 140px;
+        left: 3%;
+        /* background-color: brown; */
+    }
+    .b1 .fa-check{
+        position: absolute;
+        top: 15px;
+        font-size: 30px;
+        color: blue;
+    }
+    .b1 .r1{
+        position: absolute;
+        left: 40px;
+        top: 8px;
+        font-size: 20px;
+        color: white;
+    }
+    .b1 .r2{
+        position: absolute;
+        font-size: 16px;
+        color: silver;
+        top: 36px;
+        letter-spacing: 1px;
+        left: 40px;
+    }
+    .blue .get{
+        position: absolute;
+        left: 3%;
+        top: 710px;
+        height: 40px;
+        width: 94%;
+        background-color: blue;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+    .get p{
+        font-size: 18px;
+        color: black;
+        font-weight: 600;
+        letter-spacing: 1px;
+        padding-left: 40px;
+        padding-top: 10px;
+    }
+    .blue .b2{
+        position: absolute;
+        height: 65px;
+        width: 94%;
+        top: 220px;
+        left: 3%;
+        /* background-color: brown; */
+    }
+    .b2 .fa-check{
+        position: absolute;
+        top: 15px;
+        font-size: 30px;
+        color: blue;
+    }
+    .b2 .r1{
+        position: absolute;
+        left: 40px;
+        top: 8px;
+        font-size: 20px;
+        color: white;
+    }
+    .b2 .r2{
+        position: absolute;
+        font-size: 16px;
+        color: silver;
+        top: 36px;
+        letter-spacing: 1px;
+        left: 40px;
+    }
+    .blue .b3{
+        position: absolute;
+        height: 65px;
+        width: 94%;
+        top: 300px;
+        left: 3%;
+        /* background-color: brown; */
+    }
+    .b3 .fa-check{
+        position: absolute;
+        top: 15px;
+        font-size: 30px;
+        color: blue;
+    }
+    .b3 .r1{
+        position: absolute;
+        left: 40px;
+        top: 6px;
+        font-size: 20px;
+        color: white;
+    }
+    .b3 .r2{
+        position: absolute;
+        font-size: 16px;
+        color: silver;
+        top: 32px;
+        letter-spacing: 1px;
+        left: 40px;
+    }
+    .blue .b4{
+        position: absolute;
+        height: 65px;
+        width: 94%;
+        top: 380px;
+        left: 3%;
+        /* background-color: brown; */
+    }
+    .b4 .fa-check{
+        position: absolute;
+        top: 15px;
+        font-size: 30px;
+        color: blue;
+    }
+    .b4 .r1{
+        position: absolute;
+        left: 40px;
+        top: 4px;
+        font-size: 20px;
+        color: white;
+    }
+    .b4 .r2{
+        position: absolute;
+        font-size: 16px;
+        color: silver;
+        top: 30px;
+        letter-spacing: 1px;
+        left: 40px;
+    }
+    .blue .b5{
+        position: absolute;
+        height: 65px;
+        width: 94%;
+        top: 460px;
+        left: 3%;
+        /* background-color: brown; */
+    }
+    .b5 .fa-check{
+        position: absolute;
+        top: 15px;
+        font-size: 30px;
+        color: blue;
+    }
+    .b5 .r1{
+        position: absolute;
+        left: 40px;
+        top: 5px;
+        font-size: 20px;
+        color: white;
+    }
+    .b5 .r2{
+        position: absolute;
+        font-size: 16px;
+        color: silver;
+        top: 30px;
+        letter-spacing: 1px;
+        left: 40px;
+    }
+    .blue .b6{
+        position: absolute;
+        height: 65px;
+        width: 94%;
+        top: 540px;
+        left: 3%;
+        /* background-color: brown; */
+    }
+    .b6 .fa-check{
+        position: absolute;
+        top: 15px;
+        font-size: 30px;
+        color: blue;
+    }
+    .b6 .r1{
+        position: absolute;
+        left: 40px;
+        top: 8px;
+        font-size: 20px;
+        color: white;
+    }
+    .b6 .r2{
+        position: absolute;
+        font-size: 16px;
+        color: silver;
+        top: 36px;
+        letter-spacing: 1px;
+        left: 40px;
+    }
+    .plans .silver{
+        position: absolute;
+        left: 0%;
+        top: 900px;
+        height: 760px;
+        width: 100%;
+        /* background-color: rgb(30, 30, 30); */
+        background-image: linear-gradient(rgb(95, 89, 89) ,rgb(30, 30, 30), rgb(30, 30, 30), rgb(30, 30, 30)90%);
+        border-radius: 5px;
+        border-top: 3px solid silver;
+    }
+    .silver .fa-w{
+        position: absolute;
+        top: 20px;
+        left: 45%;
+        color: silver;
+        font-size: 24px;
+    }
+    .silver .txt{
+        position: absolute;
+        top: 60px;
+        left: 40%;
+        height: 20px;
+        width: 60px;
+        background-color: silver;
+        border-radius: 4px;
+    }
+    .silver .txt p{
+        color: black;
+        padding-left: 10px;
+        padding-top: 1px;
+    }
+    .silver .s1{
+        position: absolute;
+        height: 65px;
+        width: 94%;
+        top: 220px;
+        left: 3%;
+        /* background-color: brown; */
+    }
+    .s1 .fa-check{
+        position: absolute;
+        top: 15px;
+        font-size: 30px;
+        color: silver;
+    }
+    .s1 .r1{
+        position: absolute;
+        left: 40px;
+        top: 8px;
+        font-size: 20px;
+        color: white;
+    }
+    .s1 .r2{
+        position: absolute;
+        font-size: 16px;
+        color: silver;
+        top: 36px;
+        letter-spacing: 1px;
+        left: 40px;
+    }
+    .silver .s2{
+        position: absolute;
+        height: 65px;
+        width: 94%;
+        top: 140px;
+        left: 3%;
+        /* background-color: brown; */
+    }
+    .s2 .fa-check{
+        position: absolute;
+        top: 15px;
+        font-size: 30px;
+        color: silver;
+    }
+    .s2 .r1{
+        position: absolute;
+        left: 40px;
+        top: 8px;
+        font-size: 20px;
+        color: white;
+    }
+    .s2 .r2{
+        position: absolute;
+        font-size: 16px;
+        color: silver;
+        top: 36px;
+        letter-spacing: 1px;
+        left: 40px;
+    }
+    .silver .s3{
+        position: absolute;
+        height: 65px;
+        width: 94%;
+        top: 300px;
+        left: 3%;
+        /* background-color: brown; */
+    }
+    .s3 .fa-check{
+        position: absolute;
+        top: 15px;
+        font-size: 30px;
+        color: silver;
+    }
+    .s3 .r1{
+        position: absolute;
+        left: 40px;
+        top: 6px;
+        font-size: 20px;
+        color: white;
+    }
+    .s3 .r2{
+        position: absolute;
+        font-size: 16px;
+        color: silver;
+        top: 32px;
+        letter-spacing: 1px;
+        left: 40px;
+    }
+    .silver .s4{
+        position: absolute;
+        height: 65px;
+        width: 94%;
+        top: 380px;
+        left: 3%;
+        /* background-color: brown; */
+    }
+    .s4 .fa-check{
+        position: absolute;
+        top: 15px;
+        font-size: 30px;
+        color: silver;
+    }
+    .s4 .r1{
+        position: absolute;
+        left: 40px;
+        top: 6px;
+        font-size: 20px;
+        color: white;
+    }
+    .s4 .r2{
+        position: absolute;
+        font-size: 16px;
+        color: silver;
+        top: 32px;
+        letter-spacing: 1px;
+        left: 40px;
+    }
+    .silver .s5{
+        position: absolute;
+        height: 65px;
+        width: 94%;
+        top: 460px;
+        left: 3%;
+        /* background-color: brown; */
+    }
+    .s5 .fa-check{
+        position: absolute;
+        top: 15px;
+        font-size: 30px;
+        color: silver;
+    }
+    .s5 .r1{
+        position: absolute;
+        left: 40px;
+        top: 6px;
+        font-size: 20px;
+        color: white;
+    }
+    .s5 .r2{
+        position: absolute;
+        font-size: 16px;
+        color: silver;
+        top: 32px;
+        letter-spacing: 1px;
+        left: 40px;
+    }
+    .silver .s6{
+        position: absolute;
+        height: 65px;
+        width: 94%;
+        top: 540px;
+        left: 3%;
+        /* background-color: brown; */
+    }
+    .s6 .fa-check{
+        position: absolute;
+        top: 15px;
+        font-size: 30px;
+        color: silver;
+    }
+    .s6 .r1{
+        position: absolute;
+        left: 40px;
+        top: 6px;
+        font-size: 20px;
+        color: white;
+    }
+    .s6 .r2{
+        position: absolute;
+        font-size: 16px;
+        color: silver;
+        top: 32px;
+        letter-spacing: 1px;
+        left: 40px;
+    }
+    .silver .s7{
+        position: absolute;
+        height: 65px;
+        width: 94%;
+        top: 620px;
+        left: 3%;
+        /* background-color: brown; */
+    }
+    .s7 .fa-check{
+        position: absolute;
+        top: 15px;
+        font-size: 30px;
+        color: silver;
+    }
+    .s7 .r1{
+        position: absolute;
+        left: 40px;
+        top: 6px;
+        font-size: 20px;
+        color: white;
+    }
+    .s7 .r2{
+        position: absolute;
+        font-size: 16px;
+        color: silver;
+        top: 32px;
+        letter-spacing: 1px;
+        left: 40px;
+    }
+    .silver .get{
+        position: absolute;
+        left: 3%;
+        top: 710px;
+        height: 40px;
+        width: 94%;
+        background-color: silver;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+    .get p{
+        font-size: 18px;
+        color: black;
+        font-weight: 600;
+        letter-spacing: 1px;
+        padding-left: 40px;
+        padding-top: 10px;
+    }
+    .plans .gold{
+        position: absolute;
+        top: 1700px;
+        left: 0%;
+        height: 760px;
+        width: 100%;
+        /* background-color: rgb(30, 30, 30); */
+        background-image: linear-gradient(rgb(99, 85, 8),rgb(30, 30, 30), rgb(30, 30, 30), rgb(30, 30, 30)90%);
+        border-radius: 5px;
+        border-top: 3px solid gold;
+    }
+    .gold .fa-w{
+        position: absolute;
+        top: 20px;
+        left: 45%;
+        color: gold;
+        font-size: 24px;
+    }
+    .gold .txt{
+        position: absolute;
+        top: 60px;
+        left: 40%;
+        height: 20px;
+        width: 60px;
+        background-color: gold;
+        border-radius: 4px;
+    }
+    .gold .txt p{
+        color: black;
+        padding-left: 10px;
+        padding-top: 1px;
+    }
+    .gold .txt1{
+        position: absolute;
+        top: 100px;
+        left: 28%;
+        height: 20px;
+        width: 150px;
+        background-color: rgb(61, 61, 61);
+    }
+    .txt1 p{
+        color: rgb(108, 209, 108);
+        padding-left: 22px;
+        padding-top: 4px;
+        letter-spacing: 2px;
+        font-size: 12px;
+    }
+    .gold .g1{
+        position: absolute;
+        height: 65px;
+        width: 94%;
+        top: 140px;
+        left: 3%;
+        /* background-color: brown; */
+    }
+    .g1 .fa-check{
+        position: absolute;
+        top: 15px;
+        font-size: 30px;
+        color: gold;
+    }
+    .g1 .r1{
+        position: absolute;
+        left: 40px;
+        top: 8px;
+        font-size: 20px;
+        color: white;
+    }
+    .g1 .r2{
+        position: absolute;
+        font-size: 16px;
+        color: silver;
+        top: 36px;
+        letter-spacing: 1px;
+        left: 40px;
+    }
+    .gold .g2{
+        position: absolute;
+        height: 65px;
+        width: 94%;
+        top: 220px;
+        left: 3%;
+        /* background-color: brown; */
+    }
+    .g2 .fa-check{
+        position: absolute;
+        top: 15px;
+        font-size: 30px;
+        color: gold;
+    }
+    .g2 .r1{
+        position: absolute;
+        left: 40px;
+        top: 8px;
+        font-size: 20px;
+        color: white;
+    }
+    .g2 .r2{
+        position: absolute;
+        font-size: 16px;
+        color: silver;
+        top: 36px;
+        letter-spacing: 1px;
+        left: 40px;
+    }
+    .gold .g3{
+        position: absolute;
+        height: 65px;
+        width: 94%;
+        top: 300px;
+        left: 3%;
+        /* background-color: brown; */
+    }
+    .g3 .fa-check{
+        position: absolute;
+        top: 15px;
+        font-size: 30px;
+        color: gold;
+    }
+    .g3 .r1{
+        position: absolute;
+        left: 40px;
+        top: 8px;
+        font-size: 20px;
+        color: white;
+    }
+    .g3 .r2{
+        position: absolute;
+        font-size: 16px;
+        color: silver;
+        top: 36px;
+        letter-spacing: 1px;
+        left: 40px;
+    }
+    .gold .g4{
+        position: absolute;
+        height: 65px;
+        width: 94%;
+        top: 80px;
+        left: 3%;
+        /* background-color: brown; */
+    }
+    .g4 .fa-check{
+        position: absolute;
+        top: 15px;
+        font-size: 30px;
+        color: gold;
+    }
+    .g4 .r1{
+        position: absolute;
+        left: 40px;
+        top: 8px;
+        font-size: 20px;
+        color: white;
+    }
+    .g4 .r2{
+        position: absolute;
+        font-size: 16px;
+        color: silver;
+        top: 36px;
+        letter-spacing: 1px;
+        left: 40px;
+    }
+    .gold .g5{
+        position: absolute;
+        height: 65px;
+        width: 94%;
+        top: 150px;
+        left: 3%;
+        /* background-color: brown; */
+    }
+    .g5 .fa-check{
+        position: absolute;
+        top: 15px;
+        font-size: 30px;
+        color: gold;
+    }
+    .g5.r1{
+        position: absolute;
+        left: 40px;
+        top: 8px;
+        font-size: 20px;
+        color: white;
+    }
+    .g5 .r2{
+        position: absolute;
+        font-size: 16px;
+        color: silver;
+        top: 36px;
+        letter-spacing: 1px;
+        left: 40px;
+    }
+    .gold .g6{
+        position: absolute;
+        height: 65px;
+        width: 94%;
+        top: 240px;
+        left: 3%;
+        /* background-color: brown; */
+    }
+    .g6 .fa-check{
+        position: absolute;
+        top: 15px;
+        font-size: 30px;
+        color: gold;
+    }
+    .g6.r1{
+        position: absolute;
+        left: 40px;
+        top: 8px;
+        font-size: 20px;
+        color: white;
+    }
+    .g6 .r2{
+        position: absolute;
+        font-size: 16px;
+        color: silver;
+        top: 36px;
+        letter-spacing: 1px;
+        left: 40px;
+    }
+    .gold .g7{
+        position: absolute;
+        height: 65px;
+        width: 94%;
+        top: 320px;
+        left: 3%;
+        /* background-color: brown; */
+    }
+    .g7 .fa-check{
+        position: absolute;
+        top: 15px;
+        font-size: 30px;
+        color: gold;
+    }
+    .g7.r1{
+        position: absolute;
+        left: 40px;
+        top: 8px;
+        font-size: 20px;
+        color: white;
+    }
+    .g7 .r2{
+        position: absolute;
+        font-size: 16px;
+        color: silver;
+        top: 36px;
+        letter-spacing: 1px;
+        left: 40px;
+    }
+    .gold .get{
+        position: absolute;
+        left: 3%;
+        top: 410px;
+        height: 40px;
+        width: 94%;
+        background-color: gold;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+    .gold .get p{
+        font-size: 18px;
+        color: black;
+        font-weight: 600;
+        letter-spacing: 1px;
+        padding-left: 20px;
+        padding-top: 10px;
+    }
+    .terms{
+        position: relative;
+        height: 2420px;
+        width: 80%;
+        top: 500px;
+        left: 10%;
+        /* background-color: darkgray; */
+        /* border: 2px solid white; */
+    }
+    .terms p{
+        position: absolute;
+        left: 10px;
+        font-size: 40px;
+        font-weight: 200;
+        letter-spacing: 1px;
+        color: white;
+    }
+    .terms .terms1{
+        position: absolute;
+        /* border: 1px solid white; */
+        width: 100%;
+        top: 80px;
+        height: 1100px;
+        /* background-color: blue; */
+    }
+    .terms1 {
+        position: absolute;
+    }
+    .terms1 ul{
+        margin-bottom: 20px;
+    }
+    .terms1 li{
+        margin-left: 20px;
+        color: white;
+        font-size: 16px;
+        letter-spacing: 1px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .terms .terms2{
+        position: absolute;
+        width: 100%;
+        left: 0%;
+        top: 1170px;
+        height: 1020px;
+        /* background-color: brown; */
+        /* border: 1px solid white; */
+    }
+    .terms2 {
+        position: absolute;
+    }
+    .terms2 ul{
+        margin-left: 2%;
+        margin-bottom: 20px;
+    }
+    .terms2 li{
+        margin-left: 20px;
+        color: white;
+        font-size: 16px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        letter-spacing: 1px;
+    }
+    .faq{
+        position: relative;
+        height: 650px;
+        width: 80%;
+        left: 10%;
+        top: 600px;
+        display: none;
+        /* background-color: rgb(83, 83, 83); */
+    }
+
+
+
+}
